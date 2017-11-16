@@ -16,6 +16,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+print("Hello. Are you ready to play game of life? Y/N")
+answer=input()
+if answer=="Y":
+    print("Excellent Let's Begin")
+
+else:
+    print("Too Bad.  Life has begun")  
+
+
 ON = 255
 OFF = 0
 vals = [ON, OFF]
